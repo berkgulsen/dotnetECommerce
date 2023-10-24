@@ -18,4 +18,21 @@ public class CategoryController : Controller
         List<Category> pbjCategoryList = _db.Categories.ToList();
         return View(pbjCategoryList);
     }
+    
+    public IActionResult Create()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Create(Category obj)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Add(obj);
+            _db.SaveChanges();
+            return Redirect("Index");
+        }
+
+        return View();
+    }
 }
