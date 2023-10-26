@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetECommerce", "dotnetECommerce\dotnetECommerce.csproj", "{8C2ABB27-B3CA-4CCA-9C06-303ADB372227}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetECommerce.DataAccess", "dotnetECommerce.DataAccess\dotnetECommerce.DataAccess.csproj", "{899842B4-4A65-472B-ACB3-6EEF582C25F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetECommerce.Models", "dotnetECommerce.Models\dotnetECommerce.Models.csproj", "{FB8B4F27-F5AF-47BB-A706-B8880C9B75AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetECommerce.Utility", "dotnetECommerce.Utility\dotnetECommerce.Utility.csproj", "{9B9F3716-DC94-49C1-8C65-6F9C8D7AB2A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{8C2ABB27-B3CA-4CCA-9C06-303ADB372227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C2ABB27-B3CA-4CCA-9C06-303ADB372227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C2ABB27-B3CA-4CCA-9C06-303ADB372227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899842B4-4A65-472B-ACB3-6EEF582C25F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899842B4-4A65-472B-ACB3-6EEF582C25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899842B4-4A65-472B-ACB3-6EEF582C25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899842B4-4A65-472B-ACB3-6EEF582C25F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8B4F27-F5AF-47BB-A706-B8880C9B75AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8B4F27-F5AF-47BB-A706-B8880C9B75AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8B4F27-F5AF-47BB-A706-B8880C9B75AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8B4F27-F5AF-47BB-A706-B8880C9B75AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9F3716-DC94-49C1-8C65-6F9C8D7AB2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9F3716-DC94-49C1-8C65-6F9C8D7AB2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9F3716-DC94-49C1-8C65-6F9C8D7AB2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9F3716-DC94-49C1-8C65-6F9C8D7AB2A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
