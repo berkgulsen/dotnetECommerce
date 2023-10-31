@@ -1,10 +1,10 @@
-using dotnetECommerce.DataAccess.Data;
 using dotnetECommerce.DataAccess.Repository.IRepository;
 using dotnetECommerce.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dotnetECommerce.Controllers;
+namespace dotnetECommerce.Areas.Admin.Controllers;
 
+[Area("Admin")]
 public class CategoryController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
