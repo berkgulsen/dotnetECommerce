@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace dotnetECommerce.Models;
 
@@ -33,5 +34,10 @@ public class Product
     [Display(Name = "Price for 100+")]
     [Range(1,10000)]
     public double Price100 { get; set; }
+
+    public int CategoryId { get; set; }
+    [ForeignKey("CategoryId")] 
+    public Category Category { get; set; }
+    public string ImageUrl { get; set; }
     
 }
